@@ -57,3 +57,35 @@ public class TokenBucketRateLimiter {
     }
 }
 ```
+
+**Code Execution Output :**
+
+```
+Request 1: Allowed at 2024-11-09T05:51:18.887464500Z
+Request 2: Allowed at 2024-11-09T05:51:19.108508900Z
+Request 3: Allowed at 2024-11-09T05:51:19.309283300Z
+Request 4: Allowed at 2024-11-09T05:51:19.524123600Z
+Request 5: Allowed at 2024-11-09T05:51:19.724932600Z
+Request 6: Allowed at 2024-11-09T05:51:19.926665600Z
+Request 7: Allowed at 2024-11-09T05:51:20.129833200Z
+Request 8: Allowed at 2024-11-09T05:51:20.331960200Z
+Request 9: Allowed at 2024-11-09T05:51:20.534098400Z
+Request 10: Allowed at 2024-11-09T05:51:20.748518600Z
+Request 11: Allowed at 2024-11-09T05:51:20.949546400Z
+Request 12: Allowed at 2024-11-09T05:51:21.151410Z
+Request 13: Rejected at 2024-11-09T05:51:21.353294800Z
+Request 14: Rejected at 2024-11-09T05:51:21.554324500Z
+Request 15: Rejected at 2024-11-09T05:51:21.757375100Z
+Request 16: Allowed at 2024-11-09T05:51:21.961856500Z
+Request 17: Rejected at 2024-11-09T05:51:22.164430200Z
+Request 18: Rejected at 2024-11-09T05:51:22.365078200Z
+Request 19: Rejected at 2024-11-09T05:51:22.568775Z
+Request 20: Rejected at 2024-11-09T05:51:22.772719700Z
+Request 21: Allowed at 2024-11-09T05:51:22.986887100Z
+Request 22: Rejected at 2024-11-09T05:51:23.191225200Z
+Request 23: Rejected at 2024-11-09T05:51:23.395519600Z
+Request 24: Rejected at 2024-11-09T05:51:23.598851900Z
+Request 25: Rejected at 2024-11-09T05:51:23.800981100Z
+Request 26: Allowed at 2024-11-09T05:51:24.001809Z
+Request 27: Rejected at 2024-11-09T05:51:24.205778600Z
+```
